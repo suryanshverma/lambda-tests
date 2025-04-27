@@ -1,0 +1,31 @@
+<suite name="Demo Tests" parallel="tests">
+	<listeners>
+		<listener
+			class-name="QListeners.ExtentReportsListener" />
+	</listeners>
+	
+	<test name="Scenario1">
+		<parameter name="bname" value="chrome"/>
+		<parameter name="bname" value="firefox"/>
+		<classes>
+			<class name="tests.Scenario_One" />
+		</classes>
+	</test>
+
+	<test name="Scenario2">
+		<parameter name="bname" value="chrome"/>
+		<parameter name="bname" value="firefox"/>
+		<classes>
+			<class name="tests.Scenario_Two" />
+		</classes>
+	</test>
+	<test name="Scenario3">
+		<parameter name="bname" value="chrome"/>
+		<parameter name="bname" value="firefox"/>
+		<classes>
+			<class name="tests.Scenario_Three" />
+		</classes>
+	</test>
+
+
+</suite>

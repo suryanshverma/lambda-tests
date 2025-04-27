@@ -1,0 +1,13 @@
+
+✅ Don’t forget to replace `your-username` and `your-repo` URL!
+
+---
+
+## 6. Push Everything to GitHub ⬆️
+```bash
+git init
+git add .
+git commit -m "Initial Commit with Gitpod Setup"
+git branch -M main
+git remote add origin https://github.com/your-username/selenium-lambda-assignment.git
+git push -u origin main

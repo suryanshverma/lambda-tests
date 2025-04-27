@@ -1,0 +1,4 @@
+tests\PruchaseProduct.class
+tests\LoginPageTest.class
+base\Base.class
+api\ApiInteractions.class
